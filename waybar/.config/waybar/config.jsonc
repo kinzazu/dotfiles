@@ -1,0 +1,26 @@
+{
+    "layer": "top",
+    "spacing": 4, // Gaps between modules (4px)
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": [
+		    "keyboard-state",
+			"hyprland/language", 
+			"clock"
+	],
+    "hyprland/workspaces":
+    {
+     //"format": ""
+     "format-icons": "active"
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+     },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    }
+//   "hyprland/language": {
+//		   "":
+  // }
+}
