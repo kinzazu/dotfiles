@@ -10,6 +10,7 @@ abbr -a gc --position command --set-cursor "git commit -m '%'"
 abbr -a gcl --position command --set-cursor "git clone --recurse-submodules %"
 abbr -a vim --position command --set-cursor "nvim %"
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+abbr -a k --position command --set-cursor "kubectl %"
 
 switch (uname)
     case Darwin
