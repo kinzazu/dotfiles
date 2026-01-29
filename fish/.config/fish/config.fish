@@ -5,6 +5,7 @@ end
 
 # Universal abbreviations
 abbr -a -- ap ansible-playbook
+abbr -a -- aps ansible-playbook --syntax-check 
 abbr -a wssh --position command --set-cursor "ssh % sudo tcpdump -i any -U -s0 -w - 'port 80' | wireshark -k -i -"
 abbr -a gc --position command --set-cursor "git commit -m '%'"
 abbr -a gcl --position command --set-cursor "git clone --recurse-submodules %"
@@ -21,3 +22,5 @@ end
 
 #set -gx LC_ALL "en_US.UTF-8"
 set -gx EDITOR nvim
+
+
