@@ -19,6 +19,7 @@ abbr -a --position command  -- v nvim
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
 # Kubernetes
+alias k="kubectl"
 abbr -a k --position command --set-cursor "kubectl %"
 abbr -a --set-cursor='%' -- kgp 'kubectl get po %'
 abbr -a --set-cursor='%' -- kgs 'kubectl get svc %'
