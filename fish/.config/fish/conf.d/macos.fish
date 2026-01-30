@@ -9,6 +9,7 @@ end
 
 
 # add enviroments
+set -gx -a PATH $HOME/.local/bin
 set -gx -a PATH /opt/homebrew/bin
 set -gx HOMEBREW_NO_AUTO_UPDATE 1
 set -gx -a PATH /Users/nikoleontiev/Library/Application Support/JetBrains/Toolbox/scripts
