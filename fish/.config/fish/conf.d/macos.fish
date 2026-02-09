@@ -25,6 +25,8 @@ set -gx -a PATH /Library/Frameworks/Python.framework/Versions/3.11/bin
 
 set -gx -a PATH /Library/Frameworks/Python.framework/Versions/3.13/bin
 
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/nikoleontiev/google-cloud-sdk/path.fish.inc' ]; . '/Users/nikoleontiev/google-cloud-sdk/path.fish.inc'; end
 
 if not set -q GOPATH;
     set -gx  GOPATH $HOME/go
