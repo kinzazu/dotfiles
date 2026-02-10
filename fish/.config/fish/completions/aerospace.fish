@@ -1,1 +1,0 @@
-/opt/homebrew/Caskroom/aerospace/0.19.2-Beta/AeroSpace-v0.19.2-Beta/shell-completion/fish/aerospace.fish
